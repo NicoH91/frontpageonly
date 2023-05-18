@@ -1,0 +1,290 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: #DBBFA4;
+
+}
+
+.header {
+    display: flex;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+}
+
+.header__navbar {
+    background-color: white;
+    padding-top: 2em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 58%;
+}
+
+.header__navbar--botones {
+    padding-top: 2.5em;
+    width: 42%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+
+.header__navbar--lupa {
+    margin-top: 7px;
+}
+
+.header__navbar--bolsa {
+    height: 25px;
+}
+
+.iconolupa {
+    height: 25px;
+    
+
+}
+
+.bolsa {
+    
+    height: 25px;
+
+
+}
+
+.linea {
+    margin-left: 30px;
+    border-right: 1.5px solid #B1A599;
+    height: 24px;
+}
+
+.header__navbar--logo {
+    font-size: 39px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 9px;
+    margin-left: 40px;
+    font-weight: 900;
+    letter-spacing: -4px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.logo {
+    font-size: 39px;
+    font-family: 'Lora', serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 9px;
+    margin-left: 40px;
+    font-weight: 900;
+    letter-spacing: -4px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.uno {
+    margin-left: 180px;
+    margin-right: 110px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+.dos {
+    margin-right: 110px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.tres {
+    margin-right: 110px;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.cuatro {
+    text-decoration: none;
+    color: black;
+    margin-right: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.header__navbar--singin {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+}
+
+.header__navbar--singup {
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid black;
+
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 85px;
+}
+
+.mainpage {
+    display: flex;
+}
+
+.mainpage__contenedor {
+    background-color: white;
+    margin-top: 0px;
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+}
+
+.mainpage__contenedor--1 {
+    margin-bottom: 0px;
+}
+
+
+.mainpage__titulo--p {
+    margin-left: 70px;
+    font-size: 130px;
+    margin-top: 180px;
+    letter-spacing: -8px;
+}
+
+.mainpage__titulo--1 {
+    margin-left: 70px;
+    margin-top: -25px;
+    font-size: 130px;
+    letter-spacing: -8px;
+    padding-bottom: 30px;
+}
+
+.shop {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin-left: 70px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    border: 2px solid black;
+    padding-left: 32px;
+    width: 96px;
+    padding-right: 35px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+
+
+}
+
+.div__texto {
+    margin-left: 70px;
+    width: 420px;
+    margin-bottom: 50px;
+
+}
+
+.div__texto--p {
+    font-family: 2px;
+    color: grey;
+    margin-top: 160px;
+}
+
+.contienetexto {
+    margin-left: 70px;
+    width: 420px;
+    margin-bottom: 50px;
+    /* margin-top: 160px; */
+}
+
+.texto {
+    font-family: 2px;
+    color: grey;
+    /* margin-top: 160px; */
+}
+
+
+.mainpage__img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-right: 70px;
+
+}
+
+
+
+.direccion {
+    margin-top: 350px;
+    margin-right: 0px;
+
+}
+
+.barrauno {
+    padding-top: 15px;
+    padding-bottom: 24px;
+    border-right: 4px solid black;
+    font-size: 9px;
+
+
+}
+
+
+.barrados {
+    border-right: 3px solid gray;
+    padding-top: 15px;
+    padding-bottom: 24px;
+    font-size: 9px;
+}
+
+
+.barratres {
+    border-right: 3px solid gray;
+    padding-top: 15px;
+    padding-bottom: 24px;
+    font-size: 9px;
+}
+
+.luno {
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.img {
+    position: absolute;
+    /* margin-top: 81px; */
+    margin-left: 38%;
+    height: 899px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    width: 920px;
+}
